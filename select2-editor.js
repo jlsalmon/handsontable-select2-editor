@@ -143,6 +143,10 @@
             .on('change', onSelect2Changed.bind(this))
             .on('select2-close', onSelect2Closed.bind(this));
 
+        // Set reference to the instance and row, so we can access them in the query function
+        self.$textarea.context.instance = self.instance;
+        self.$textarea.context.row = self.row;
+        
         self.$textarea.select2('open');
         
         // Pushes initial character entered into the search field, if available
