@@ -61,6 +61,7 @@
         var keyCodes = Handsontable.helper.keyCode;
         var ctrlDown = (event.ctrlKey || event.metaKey) && !event.altKey; //catch CTRL but not right ALT (which in some systems triggers ALT+CTRL)
 
+        Handsontable.Dom.enableImmediatePropagation(event);
 
         //Process only events that have been fired in the editor
         if (!$(event.target).hasClass('select2-input') || event.isImmediatePropagationStopped()) {
