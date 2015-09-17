@@ -197,7 +197,7 @@
     };
 
     Select2Editor.prototype.finishEditing = function (isCancelled, ctrlDown) {
-        this.instance.listen();
+        // this.instance.listen();
         return Handsontable.editors.TextEditor.prototype.finishEditing.apply(this, arguments);
     };
 
