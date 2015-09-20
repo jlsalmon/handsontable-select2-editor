@@ -1,0 +1,22 @@
+{
+  "name": "handsontable-select2-editor",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jlsalmon/handsontable-select2-editor",
+  "authors": [
+    "Justin Lewis Salmon <justin.lewis.salmon@cern.ch>"
+  ],
+  "description": "Select2 editor for handsontable",
+  "main": "select2-editor.js",
+  "keywords": [
+    "handsontable",
+    "select2"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
